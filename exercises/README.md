@@ -7,8 +7,8 @@
 | if                     | §3.5                |    => check
 | primitive_types        | §3.2, §4.3          |    => check
 | vecs                   | §8.1                |    => check
-| move_semantics         | §4.1-2              |
-| structs                | §5.1, §5.3          |
+| move_semantics         | §4.1-2              |    => check
+| structs                | §5.1, §5.3          |    
 | enums                  | §6, §18.3           |
 | strings                | §8.2                |
 | modules                | §7                  |

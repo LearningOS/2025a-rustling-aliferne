@@ -11,7 +11,9 @@
 fn main() {
     let vec0 = Vec::new();
 
-    let mut vec1 = fill_vec(vec0.clone());
+    let mut vec1 = fill_vec(vec0);
+    // 虽然是新的对象，但是实现了`[22, 44, 66]`
+    let vec0 = vec1.clone();
 
     println!("{} has length {}, with contents: `{:?}`", "vec0", vec0.len(), vec0);
 
