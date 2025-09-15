@@ -8,9 +8,9 @@
 | primitive_types        | §3.2, §4.3          |    => check
 | vecs                   | §8.1                |    => check
 | move_semantics         | §4.1-2              |    => check
-| structs                | §5.1, §5.3          |    
+| structs                | §5.1, §5.3          |    => check
 | enums                  | §6, §18.3           |
-| strings                | §8.2                |
+| strings                | §8.2                |    
 | modules                | §7                  |
 | hashmaps               | §8.3                |
 | options                | §10.1               |
