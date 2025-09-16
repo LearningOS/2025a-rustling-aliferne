@@ -11,8 +11,8 @@
 | structs                | §5.1, §5.3          |    => check
 | enums                  | §6, §18.3           |    => check
 | strings                | §8.2                |    => check
-| modules                | §7                  | 
-| hashmaps               | §8.3                |
+| modules                | §7                  |    => check
+| hashmaps               | §8.3                |    => check
 | options                | §10.1               |
 | error_handling         | §9                  |
 | generics               | §10                 |
