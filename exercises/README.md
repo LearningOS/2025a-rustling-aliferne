@@ -13,15 +13,15 @@
 | strings                | §8.2                |    => check
 | modules                | §7                  |    => check
 | hashmaps               | §8.3                |    => check
-| options                | §10.1               |
+| options                | §10.1               |    => check
 | error_handling         | §9                  |
 | generics               | §10                 |
 | traits                 | §10.2               |
 | tests                  | §11.1               |
 | lifetimes              | §10.3               |
-| iterators              | §13.2-4             |
+| iterators              | §13.2-4             |    // TODO
 | threads                | §16.1-3             |
-| smart_pointers         | §15, §16.3          |
+| smart_pointers         | §15, §16.3          |    // TODO
 | macros                 | §19.6               |
 | clippy                 | §21.4               |
 | conversions            | n/a                 |

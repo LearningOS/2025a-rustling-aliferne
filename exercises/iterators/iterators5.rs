@@ -35,7 +35,19 @@ fn count_for(map: &HashMap<String, Progress>, value: Progress) -> usize {
 fn count_iterator(map: &HashMap<String, Progress>, value: Progress) -> usize {
     // map is a hashmap with String keys and Progress values.
     // map = { "variables1": Complete, "from_str": None, ... }
-    todo!();
+
+    // 这是其中一种实现
+    // map.values().fold(0, |acc, v| {
+    //     if v == &value {
+    //         acc + 1
+    //     } else {
+    //         acc
+    //     }
+    // })
+
+    // 可以更简洁
+    // 这里的 &v 是一种模式匹配，它把原来的 &&Progress 解引用为 &Progress
+    map.values().filter(|&v| v == &value).count()
 }
 
 fn count_collection_for(collection: &[HashMap<String, Progress>], value: Progress) -> usize {
@@ -54,7 +66,9 @@ fn count_collection_iterator(collection: &[HashMap<String, Progress>], value: Pr
     // collection is a slice of hashmaps.
     // collection = [{ "variables1": Complete, "from_str": None, ... },
     //     { "variables2": Complete, ... }, ... ]
-    todo!();
+    collection.iter().fold(0, |acc, m| {
+        acc + m.values().filter(|&v| v == &value).count()
+    })
 }
 
 #[cfg(test)]
