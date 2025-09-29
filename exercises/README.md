@@ -14,8 +14,8 @@
 | modules                | §7                  |    => check
 | hashmaps               | §8.3                |    => check
 | options                | §10.1               |    => check
-| error_handling         | §9                  |    // TODO
-| generics               | §10                 |
+| error_handling         | §9                  |    => check
+| generics               | §10                 |    => check
 | traits                 | §10.2               |
 | tests                  | §11.1               |
 | lifetimes              | §10.3               |
