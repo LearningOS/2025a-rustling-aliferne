@@ -16,11 +16,11 @@
 | options                | §10.1               |    => check
 | error_handling         | §9                  |    => check
 | generics               | §10                 |    => check
-| traits                 | §10.2               |
+| traits                 | §10.2               |    => TODO
 | tests                  | §11.1               |
 | lifetimes              | §10.3               |
 | iterators              | §13.2-4             |    => check
-| threads                | §16.1-3             |
+| threads                | §16.1-3             |    => check
 | smart_pointers         | §15, §16.3          |    => check
 | macros                 | §19.6               |
 | clippy                 | §21.4               |
