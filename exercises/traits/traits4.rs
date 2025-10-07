@@ -22,9 +22,8 @@ struct OtherSoftware {}
 impl Licensed for SomeSoftware {}
 impl Licensed for OtherSoftware {}
 
-// YOU MAY ONLY CHANGE THE NEXT LINE
-// TODO:
-fn compare_license_types(software: SomeSoftware, software_two: OtherSoftware) -> bool {
+/// 泛型这一块（
+fn compare_license_types<T: Licensed, U: Licensed>(software: T, software_two: U) -> bool {
     software.licensing_info() == software_two.licensing_info()
 }
 

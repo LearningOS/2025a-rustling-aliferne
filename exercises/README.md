@@ -16,7 +16,7 @@
 | options                | §10.1               |    => check
 | error_handling         | §9                  |    => check
 | generics               | §10                 |    => check
-| traits                 | §10.2               |    => TODO
+| traits                 | §10.2               |    => check
 | tests                  | §11.1               |
 | lifetimes              | §10.3               |
 | iterators              | §13.2-4             |    => check
