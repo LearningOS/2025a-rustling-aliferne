@@ -18,7 +18,7 @@
 | generics               | §10                 |    => check
 | traits                 | §10.2               |    => check
 | tests                  | §11.1               |
-| lifetimes              | §10.3               |
+| lifetimes              | §10.3               |    => check
 | iterators              | §13.2-4             |    => check
 | threads                | §16.1-3             |    => check
 | smart_pointers         | §15, §16.3          |    => check
